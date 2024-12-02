@@ -3,5 +3,9 @@ nginx
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 registry.k8s.io/csi-vsphere/driver:v3.3.1
 registry.k8s.io/csi-vsphere/syncer:v3.3.1
+registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.28.0
+registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.29.0
+registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.30.0
+registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.30.1
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
