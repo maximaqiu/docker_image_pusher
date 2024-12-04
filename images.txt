@@ -30,7 +30,7 @@ registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.10.0
 #3.1.2
 registry.k8s.io/sig-storage/csi-attacher:v4.3.0
 registry.k8s.io/sig-storage/csi-resizer:v1.8.0
-us-central1-docker.pkg.dev/k8s-staging-images/csi-vsphere//driver:v3.1.2
+us-central1-docker.pkg.dev/k8s-staging-images/csi-vsphere/driver:v3.1.2
 registry.k8s.io/sig-storage/livenessprobe:v2.10.0
 us-central1-docker.pkg.dev/k8s-staging-images/csi-vsphere/syncer:v3.1.2
 registry.k8s.io/sig-storage/csi-provisioner:v3.5.0
