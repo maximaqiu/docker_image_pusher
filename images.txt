@@ -1,43 +1,43 @@
-nginx
+#nginx
 #支持私库
-registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.28.0
-registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.28.1
-registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.29.0
-registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.30.0
-registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.30.1
-registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.31.0
+#registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.28.0
+#registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.28.1
+#registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.29.0
+#registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.30.0
+#registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.30.1
+#registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.31.0
 # 3.3.1
-registry.k8s.io/sig-storage/csi-attacher:v4.7.0
-registry.k8s.io/sig-storage/csi-resizer:v1.12.0
-us-central1-docker.pkg.dev/k8s-staging-images/csi-vsphere/driver:latest
-registry.k8s.io/sig-storage/livenessprobe:v2.14.0
-us-central1-docker.pkg.dev/k8s-staging-images/csi-vsphere/syncer:latest
-registry.k8s.io/sig-storage/csi-provisioner:v4.0.1
-registry.k8s.io/sig-storage/csi-snapshotter:v7.0.2
-registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.12.0
+#registry.k8s.io/sig-storage/csi-attacher:v4.7.0
+#registry.k8s.io/sig-storage/csi-resizer:v1.12.0
+#us-central1-docker.pkg.dev/k8s-staging-images/csi-vsphere/driver:latest
+#registry.k8s.io/sig-storage/livenessprobe:v2.14.0
+#us-central1-docker.pkg.dev/k8s-staging-images/csi-vsphere/syncer:latest
+#registry.k8s.io/sig-storage/csi-provisioner:v4.0.1
+#registry.k8s.io/sig-storage/csi-snapshotter:v7.0.2
+#registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.12.0
 
 #3.2
-registry.k8s.io/sig-storage/csi-attacher:v4.5.0
-registry.k8s.io/sig-storage/csi-resizer:v1.10.0
-us-central1-docker.pkg.dev/k8s-staging-images/csi-vsphere/driver:v3.2.0
-registry.k8s.io/sig-storage/livenessprobe:v2.12.0
-us-central1-docker.pkg.dev/k8s-staging-images/csi-vsphere/syncer:v3.2.0
-registry.k8s.io/sig-storage/csi-provisioner:v4.0.0
-registry.k8s.io/sig-storage/csi-snapshotter:v7.0.1
-registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.10.0
+#registry.k8s.io/sig-storage/csi-attacher:v4.5.0
+#registry.k8s.io/sig-storage/csi-resizer:v1.10.0
+#us-central1-docker.pkg.dev/k8s-staging-images/csi-vsphere/driver:v3.2.0
+#registry.k8s.io/sig-storage/livenessprobe:v2.12.0
+#us-central1-docker.pkg.dev/k8s-staging-images/csi-vsphere/syncer:v3.2.0
+#registry.k8s.io/sig-storage/csi-provisioner:v4.0.0
+#registry.k8s.io/sig-storage/csi-snapshotter:v7.0.1
+#registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.10.0
 
 
 #3.1.2
-registry.k8s.io/sig-storage/csi-attacher:v4.3.0
-registry.k8s.io/sig-storage/csi-resizer:v1.8.0
-us-central1-docker.pkg.dev/k8s-staging-images/csi-vsphere/driver:v3.1.2
-registry.k8s.io/sig-storage/livenessprobe:v2.10.0
-us-central1-docker.pkg.dev/k8s-staging-images/csi-vsphere/syncer:v3.1.2
-registry.k8s.io/sig-storage/csi-provisioner:v3.5.0
-registry.k8s.io/sig-storage/csi-snapshotter:v6.2.2
-registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.8.0
+#registry.k8s.io/sig-storage/csi-attacher:v4.3.0
+#registry.k8s.io/sig-storage/csi-resizer:v1.8.0
+#us-central1-docker.pkg.dev/k8s-staging-images/csi-vsphere/driver:v3.1.2
+#registry.k8s.io/sig-storage/livenessprobe:v2.10.0
+#us-central1-docker.pkg.dev/k8s-staging-images/csi-vsphere/syncer:v3.1.2
+#registry.k8s.io/sig-storage/csi-provisioner:v3.5.0
+#registry.k8s.io/sig-storage/csi-snapshotter:v6.2.2
+#registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.8.0
 
-tp4a/teleport
+tp4a/teleport:3.5.6
 
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
