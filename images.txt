@@ -44,7 +44,7 @@
 #k8s.gcr.io/sig-storage/csi-provisioner:v3.3.0
 #k8s.gcr.io/sig-storage/csi-snapshotter:v6.0.1
 #k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.6.2
-gcr.io/cloud-provider-vsphere/cpi/release/manager:v1.25.0
+registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.28.0
 
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
