@@ -2,7 +2,6 @@ nginx:stable-alpine
 openjdk:11-jdk
 node:14-alpine
 python
-python:3.14
 python:3.10
 python:3.9
 python:3.8
