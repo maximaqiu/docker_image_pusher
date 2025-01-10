@@ -11,6 +11,7 @@ php
 php:8.2-fpm-alpine3.20
 php:7.4.33-fpm
 php:7.4-apache
+redis:7.4.2
 mysql:8.0.40
 mysql:latest
 mysql:5.7.44
