@@ -1,7 +1,5 @@
-mariadb:10
-redis:7.2-alpine
-crazymax/msmtpd:latest
-librenms/librenms:latest
+docker.io/phusion/baseimage:noble-1.0.0
+
 #支持私库
 #registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.28.0
 #registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.28.1
