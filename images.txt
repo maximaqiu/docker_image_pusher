@@ -1,5 +1,4 @@
-docker.io/phusion/baseimage:noble-1.0.0
-docker pull mysql:5.6.27
+mysql:5.6.27
 #支持私库
 #registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.28.0
 #registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.28.1
