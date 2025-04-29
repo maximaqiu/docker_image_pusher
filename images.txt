@@ -1,10 +1,6 @@
-alpine:3
-nginx
-redis:5.0.4
-hashicorp/http-echo:1.0
-non-existing-repo/non-existing-image:example
 gcr.io/google-samples/xtrabackup:1.0
 gcr.io/myproject/job-wq-2
+non-existing-repo/non-existing-image:example
 #支持私库
 #registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.28.0
 #registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.28.1
