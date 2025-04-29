@@ -11,7 +11,6 @@ nginx:1.14.2
 nginx:1.16.1
 mysql:5.6
 mysql:5.7
-gcr.io/google-samples/xtrabackup:1.0
 registry.k8s.io/hpa-example
 busybox:1.28
 gcr.io/myproject/job-wq-2
@@ -24,6 +23,7 @@ alpine:3
 nginx
 redis:5.0.4
 hashicorp/http-echo:1.0
+gcr.io/google-samples/xtrabackup:1.0
 #支持私库
 #registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.28.0
 #registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.28.1
