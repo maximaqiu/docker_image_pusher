@@ -1,5 +1,8 @@
-linuxserver/bookstack:latest
-qdrant/qdrant:latest
+infiniflow/ragflow:v0.24.0
+valkey/valkey:8
+pgsty/minio:RELEASE.2026-03-25T00-00-00Z
+mysql:8.0.39
+elasticsearch:8.11.3
 #registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.1.1
 #支持私库
 #registry.k8s.io/cloud-pv-vsphere/cloud-provider-vsphere:v1.28.0
